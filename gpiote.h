@@ -2,7 +2,7 @@
 #define GPIOTE_H
 #include <stdint.h>
 
-#define GPIOTE ((NRF_GPIOTE_REG*)40006000)
+#define GPIOTE ((NRF_GPIOTE_REG*) 0x40006000)
 
 typedef struct {
 	// Tasks
