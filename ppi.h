@@ -2,7 +2,7 @@
 #define PPI_H
 #include <stdint.h>
 
-#define PPI ((NRF_PPI_REG*)4001F000)
+#define PPI ((NRF_PPI_REG*)0x4001F000)
 
 typedef struct {
 	uint32_t EN;

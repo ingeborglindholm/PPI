@@ -24,4 +24,6 @@ typedef struct {
 	volatile uint32_t CONFIG[8];
 } NRF_GPIOTE_REG;
 
+void gpiote_init(); 
+
 #endif
